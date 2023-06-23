@@ -63,7 +63,7 @@ const BlogDetails = () => {
                     Go Back <AiOutlineArrowRight />
                 </Link>
                 <div className={classes.wrapper}>
-                    <img src={`http://localhost:5000/images/${blogDetails?.photo}`} />
+                    <img src={`https://artbaba.onrender.com/images/${blogDetails?.photo}`} />
                     <div className={classes.titleAndControls}>
                         <h3 className={classes.title}>{blogDetails?.title}</h3>
                         {blogDetails?.userId?._id === user._id ?
